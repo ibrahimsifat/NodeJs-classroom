@@ -48,7 +48,7 @@ const requireSignIn = (req, res, next) => {
 
     req.tokenUserId = user._id;
     req.profile = user;
-    console.log(req.profile);
+    // console.log(req.profile);
     next();
   });
 };
